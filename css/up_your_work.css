@@ -17,7 +17,7 @@
 
 .Up_your_work_text{
     height: 350px;
-    width: 600px;
+    width: 640px;
     border-radius: 10px;
 }
 
@@ -29,8 +29,41 @@
 
 .Up_your_work_text_container{
     display: flex;
+    height: 70px;
     justify-content: space-around;
     flex-direction: row;
     gap: 20px;
 }
 
+.Up_your_work_text h4{
+    font-weight: 545;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* .Up_your_work_text p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} */
+
+.Up_your_work_text_bt{
+    display: flex;
+    /* margin-top: 30px; */
+    justify-content: start;
+    gap: 40px;
+}
+
+.sign_up_for_free{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.learn_how_to_hire{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    color: #000;
+    border: 1px solid green;
+}
