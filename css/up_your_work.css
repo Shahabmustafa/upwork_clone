@@ -1,0 +1,33 @@
+#Up_your_work_game{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    height: 60vh;
+    width: 100%;
+}
+
+.Up_your_work_image{
+    background-color: #f2f7f2;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+
+.Up_your_work_text{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.Up_your_work_handing{
+    font-size: 40px;
+    font-weight: 500
+}
+
+.Up_your_work_text_container{
+    display: flex;
+    justify-content: space-around;
+}
+
