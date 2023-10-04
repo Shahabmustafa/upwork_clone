@@ -1,9 +1,15 @@
 #Up_your_work_game{
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+}
+
+.up_your_work_game_container{
+    display: flex;
     justify-content: start;
     flex-direction: row;
-    height: 60vh;
-    width: 100%;
 }
 
 .Up_your_work_image{
@@ -49,15 +55,19 @@
     display: flex;
     /* margin-top: 30px; */
     justify-content: start;
-    gap: 40px;
+    gap: 20px;
 }
 
 .sign_up_for_free{
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px 10px 25px;
     background-color: green;
     border-radius: 30px;
     color: #fff;
+}
+
+.sign_up_for_free:hover{
+    background-color: #12a800;
 }
 
 .learn_how_to_hire{
@@ -66,4 +76,34 @@
     border-radius: 30px;
     color: #000;
     border: 1px solid green;
+}
+
+.learn_how_to_hire:hover{
+    background-color: #f0f9f0;
+}
+
+.browse_talent_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.browse_talent_text h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.browse_talent_text p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.browse_talent_text a{
+    color: green;
+}
+
+.browse_talent_text a:hover{
+    color: #12a800;
+    cursor: pointer;
 }

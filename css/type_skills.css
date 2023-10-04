@@ -1,0 +1,71 @@
+
+#type_of_skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.skill_container_one{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+
+.skill_container_two{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+
+.skill_type{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f8faf7;
+}
+
+.skill_type .skill_heading_text{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+}
+
+.skill_type .skill_text{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.skill_rate{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 50px;
+    align-items: center;
+}
+
+.skill_rate .fa-star{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: green;
+}
