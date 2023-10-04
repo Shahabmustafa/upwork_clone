@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 73vh;
-    width: 92vw;
+    width: 90vw;
     border-radius: 10px;
     opacity: 0.6 #000;
 }
@@ -66,11 +66,13 @@
 
 .post_a_job_heading{
     padding-left: 20px;
+    background-color: #158900;
     font-size: 34px;
     width: 14.8vw;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .post_a_job_text{
     color: #fff;
@@ -80,5 +82,9 @@
 }
 
 .post_a_job_heading_controller{
+    padding-left: 20px;
+    font-size: 34px;
     width: 25vw;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
