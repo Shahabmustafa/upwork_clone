@@ -1,0 +1,110 @@
+
+
+#why_businesses_turn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.why_businesses_text{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #f2f7f2;
+    width: 50vw;
+    height: 80vh;
+}
+
+.why_text_icon_container{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.why_text_heading{
+    font-size: 70px;
+    width: 40vw;
+}
+
+.icon_plus_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60px;
+    width: 30vw;
+}
+
+.icon_vs_text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.icon_vs_text_piligraph{
+    font-size: 30px;
+}
+
+.icon_vs_text_piligraph_second{
+    margin-left: 25px;
+}
+
+.we_are_world{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-color: #12a800;
+    border-radius: 10px;
+    height: 80vh;
+    width: 30vw;
+    padding-left: 30px;
+}
+
+.rating_text_container{
+    height: 20vh;
+}
+
+.we_are_world_text{
+    height: 18vh;
+    font-size: 35px;
+    width: 20vw;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.rating_icon_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rating_icon_vs_text{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.icon_star{
+    font-size: 35px;
+}
+
+.rating_icon_vs_text_piligraph{
+    font-size: 35px;
+}
+
+.rating_icon_vs_text_piligraph_second{
+    padding-left: 50px;
+    color: #fff;
+}
+
+
